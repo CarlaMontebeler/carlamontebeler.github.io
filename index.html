@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastora Carlinha</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #F4E8D1;
+            color: #5C4033;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #D19C67;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #A65E2E;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #D19C67;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+        }
+        .form-group button {
+            background-color: #A65E2E;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .social-links a {
+            color: #A65E2E;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+        .download-area {
+            background-color: #F2D9B1;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pastora Carlinha</h1>
+    </header>
+    <nav>
+        <a href="#biografia">Biografia</a>
+        <a href="#livros">Livros Publicados</a>
+        <a href="#agenda">Agenda de Palestras</a>
+        <a href="#contato">Contato</a>
+        <a href="#galeria">Galeria de Fotos</a>
+    </nav>
+    <section id="biografia" class="container">
+        <h2>Biografia</h2>
+        <p>Sou Pastora Carlinha, editora de livros evangélicos, autora e palestrante. Meu objetivo é ajudar pessoas com os meus dons, descobrindo e publicando autores cristãos, além de ministrar palestras bíblicas e motivacionais. Amo viajar, fotografar, música e eventos culturais.</p>
+    </section>
+    <section id="livros" class="container">
+        <h2>Livros Publicados</h2>
+        <ul>
+            <li>Livro 1</li>
+            <li>Livro 2</li>
+            <li>Livro 3</li>
+        </ul>
+    </section>
+    <section id="agenda" class="container">
+        <h2>Agenda de Palestras</h2>
+        <ul>
+            <li>Data 1: Local 1</li>
+            <li>Data 2: Local 2</li>
+            <li>Data 3: Local 3</li>
+        </ul>
+    </section>
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <div class="social-links">
+            <a href="https://www.instagram.com/seuusuario" target="_blank">Instagram</a>
+        </div>
+    </section>
+    <section id="galeria" class="container">
+        <h2>Galeria de Fotos</h2>
+        <p>Aqui você pode adicionar uma galeria de fotos.</p>
+    </section>
+    <section class="download-area container">
+        <h2>Área de Download</h2>
+        <p><a href="link_do_recurso" download>Baixe aqui os recursos disponíveis</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pastora Carlinha</p>
+    </footer>
+</body>
+</html>
